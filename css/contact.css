@@ -1,65 +1,16 @@
-body, div, ul, li {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+/* Body */
+body {font-family: Arial, Helvetica, sans-serif;}
 
-  }
-  body{
-  font-family: fantasy;
-  margin-top: 20px;
-  }
 
-  /* Header with logo and navigation */
-  .nav {
-    background: #000;
-    height: 130px;
-    text-align:center;
-    font-size: 90px;
-    border: 7px solid #6bec20fd;
-    padding: 5px;
-    mix-blend-mode: darken;
-  }
-  .logo {
-  float:left;
-}
-  .nav li {
-    display: inline-block;
-    list-style: none;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 40px;
-  }
-  .nav li:hover {
-    display:inline-block;
-    list-style: none;
-    height:30px;
-    line-height: 20px;
-    padding:0 40px;
-    transition: background .3s;
 
-  }
-  .nav-link {
-    color: #fff;
-    text-decoration: none;
-  }
 
-  nav li a:link {
-    color: white;
+/* Jumbotron/ Navbar */
+.logo {
+float: left;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.nav li a:visited {
-  color: #6bec20fd;
-}
-.nav li a:hover {
-    color: white;
-}
-.nav li a:active {
-    color: rgb(25, 21, 243);
-}
+
+
 
 /* Contact form */
 .container {
@@ -109,36 +60,21 @@ li {cursor: pointer;}
   }
 
 
-/* headings */
-  a {
-    font-size: 60px;
-
-  }
-h1 {
+/* Footer */
+footer {
+  display: outside;
   text-align: center;
-  font-size: 90px;
-  margin-left: 700px;
-  margin-right: 700px;
-   }
-
-
-  
-
-  /* Footer with Social Media Icon Links */
-  footer {
-    display: outside;
-    text-align: center;
-    padding: 1px;
-    text-shadow: 2px 1px white;
-    margin: 100px;
-    font-family: fantasy;
-    font-size: 150%;
-    border: 5px solid black;
-    float: center;
-    margin-top: 200px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: cover;
-  }
+  padding: 1px;
+  text-shadow: 2px 1px white;
+  margin: 100px;
+  font-family: fantasy;
+  font-size: 150%;
+  border: 5px solid black;
+  float: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
