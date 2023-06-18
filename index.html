@@ -105,6 +105,20 @@
 
 
   <body>
+
+        <!-- Converter -->
+
+        <div class="converter-container">
+          <h2>Weight Converter</h2>
+          <p>Type a value in the Kilograms field to convert the value to Pounds:</p>
+          
+          <p>
+            <label>Kilograms</label>
+            <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+          </p>
+          <p>Pounds: <span id="outputPounds"></span></p>
+              
+        </div>
     <!-- pic -->
 
         <img src="https://i.ibb.co/GCZMJMd/cover-pic4.jpg" style="width: 400px; align-items: center; display: flex; justify-content: center; border: 4px solid black; margin-left: auto; margin-right: auto; margin-top: -200px; margin-bottom: 50px;">
