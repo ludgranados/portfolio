@@ -72,7 +72,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active image_slide1">
             <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
-              <h1 class="display-1 text-uppercase" style="font-size: cover; text-shadow: black 5px 2px;">L.A.G<h2/>
+              <h1 class="display-1 text-uppercase" style="font-size: cover; text-shadow: black 5px 2px;">L.A.G</h1>
             </div>
           </div>
           <div class="carousel-item image_slide2">
@@ -103,6 +103,20 @@
 
 
   <body>
+
+    <div class="converter-container">
+      <h2>Weight Converter</h2>
+      <p>Type a value in the Kilograms field to convert the value to Pounds:</p>
+      
+      <p>
+        <label>Kilograms</label>
+        <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+      </p>
+      <p>Pounds: <span id="outputPounds"></span></p>
+          
+    </div>
+
+
     <!-- pic -->
 
         <img src="https://i.ibb.co/GC3gJPC/cover.jpg" style="width: 400px; align-items: center; display: flex; justify-content: center; border: 4px solid black; margin-left: auto; margin-right: auto; margin-top: -200px; margin-bottom: 50px;">
@@ -126,7 +140,7 @@
 
           <!-- Mp3 (soundcloud) -->
           <div class="song">
-            <iframe width="cover" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/423278088&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: fantasy;font-weight: 100;"><a href="https://soundcloud.com/ludwin-granados-488298777" title="Ludwin Granados" target="_blank" style="color: black; text-decoration: none;">L.A.G.</a> · <a href="https://soundcloud.com/ludwin-granados-488298777/romantic-style" title="Romantic style" target="_blank" style="color: black; text-decoration: none;">Romantic style</a></div>
+            <iframe width="cover" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/423278088&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: fantasy;font-weight: 100;"><a href="https://soundcloud.com/ludwin-granados-488298777" title="Ludwin Granados" target="_blank" style="color: black; text-decoration: none;">L.A.G.</a> · <a href="https://soundcloud.com/ludwin-granados-488298777/romantic-style" title="Romantic style" target="_blank" style="color: black; text-decoration: none;">Romantic style</a></div>
            </div>
 
           <div class="song">
